@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Permissions untuk BLE (Bluetooth Low Energy) -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Coolira membutuhkan akses Bluetooth untuk menghubungkan ke helm ESP32 dan mengontrol sistem pendingin.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Coolira membutuhkan akses Bluetooth untuk menghubungkan ke helm ESP32 dan mengontrol sistem pendingin.</string>
 </dict>
 </plist>
